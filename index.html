@@ -6,9 +6,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <!-- Compiled and minified CSS -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-   
-
   <link rel='stylesheet' href='style/style2.css'/>
   <link rel='stylesheet' href='style/style.css'/>
   <title>Random User Generator</title>
@@ -16,8 +13,7 @@
 <body>
 <style>
   ul#menu li {
-  display:inline;
- 
+  display:inline; 
 }
 </style>
   <div class="container">
@@ -37,7 +33,7 @@
           <li><i class="col s2 small material-icons cyan pulse" onMouseOver="this.style.color='#00e5ff'" onMouseOut="this.style.color='#40c4ff'">lock_outline</i></li>
         </ul>  
       </div>
-      <button :class="gender" @click="getUser()">Get Random User</button>
+      <button class="gender" @click="getUser()">Get Random User</button>
 </div> 
 
   </div>
